@@ -1,0 +1,20 @@
+.index--page{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 50px;
+    line-height: 2;
+}
+.index--img{
+    display: grid;
+    width: 500px;
+
+}
+.index--container{
+    display:grid;
+    grid-template-columns: 1fr 1fr  ;
+    column-gap: 20px ;
+    row-gap: 20px;
+
+
+
+}

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.navbar--img{
+    width: 120px;
+    margin-left: 20px;
+}
+.navbar--nav{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(93,154,6,1) 65%);
+    
+}
+.navbar--container {
+    display: grid;
+    grid-template-columns:0.1fr 1fr 0.1fr 0.1fr ;
+    column-gap: 10px ;
+
+}
+.menu--button{
+    background-color: rgba(93,154,6,0.1) ;
+    border: none;
+}
+.navbar--title{
+    align-self: center;
+    font-family: "Bradley Hand ITC";
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 4rem;
+}
+.navbar--divs{
+   display: grid;
+    align-self: center;
+    justify-self: end;
+    align-self: stretch;
+    align-self: center;
+    text-align: center;
+    padding-right: 20px;
+
+}
+
+.navbar--divs a{
+    font-size: 1.3rem;
+    color: black;
+}
+.navbar--divs a:hover {
+    font-size: 1.6rem;
+    color: rgba(93,154,6,1);
+}
+.navbar--divs a:active {
+    text-decoration: underline;
+}
+.navbar--divs a:not(.active) {
+    text-decoration: none;
+}
+/*új*/
+/*gomb*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    float:right;
+
+}
+.dropdown-content {
+    display: none;
+    width:100%;
+    position: fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    top:0px;
+    background-color: #f9f9f9;
+    z-index: 1;
+    line-height: 2;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px black;
+
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.open-menu {
+    display: block !important;
+}
+
+.menu{
+    font-size: 50px;
+
+}
+.button-EH{
+    display: grid;
+    grid-template-columns:0.1fr 0.1fr 1fr  ;
+    align-self: center;
+    width: 5%;
+
+
+}
+.button-EH button{
+    background-color:  rgba(93,154,6,0.01);
+    font-size: large;
+    border: none;
+
+
+}
+.button-EH button:hover{
+    opacity: 0.5;
+    text-decoration: underline;
+
+}
+@media screen and (max-width: 700px) {
+    .navbar--img{
+        width: 80px;
+        margin-left: 10px;
+    }
+    .navbar--title{
+        align-self: center;
+        font-family: "Bradley Hand ITC";
+        font-weight: bold;
+        margin-left: 20px;
+        font-size: 2rem;
+    }
+    .navbar--container {
+        display: grid;
+        grid-template-columns:0.1fr 1fr 0.1fr 0.1fr ;
+        column-gap: 10px ;
+    }
+    .menu{
+        font-size: 30px;
+
+    }
+}
+@media screen and (max-width:440px) {
+    .navbar--img{
+        width: 40px;
+        margin-left: 0px;
+    }
+    .navbar--title{
+        align-self: center;
+        font-family: "Bradley Hand ITC";
+        font-weight: bold;
+        margin-left: 0px;
+        font-size: 1.5rem;
+    }
+    .navbar--container {
+        display: grid;
+        grid-template-columns:0.1fr 1fr 0.1fr 0.1fr ;
+        column-gap: 10px ;
+    }
+    .menu{
+        font-size: 30px;
+
+    }
+}

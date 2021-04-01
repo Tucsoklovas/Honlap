@@ -1,0 +1,126 @@
+.page{
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 70px;
+    row-gap: 50px;
+    align-self: start;
+    background-color:  white;
+}
+.card{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 6px #ccc;
+
+}
+
+.card--div{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr;
+}
+.markdown{
+    line-height: 1.3;
+    font-size: 20px;
+    text-align: justify;
+    padding:10px;
+
+}
+.card ol{
+    padding-left:30px;
+}
+.card h1{
+    font-size: 34px;
+    margin-top: 10px;
+    padding-left: 10px;
+    color: rgba(93,154,6,1);
+    font-weight: bolder;
+}
+
+
+
+.card-date{
+    font-size: 19px;
+    color: black;
+    padding:10px;
+}
+
+.card--image{
+    min-height: 500px;
+    max-height: 500px;
+}
+.card--img{
+    min-height: 500px;
+    max-height: 500px;
+}
+@media screen and (max-width:1500px) {
+    .page{
+        padding:20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 70px;
+        row-gap: 50px;
+        align-self: start;
+        background-color:  white;
+    }
+}
+@media screen and (max-width:1000px) {
+    .page{
+        padding:80px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        column-gap: 70px;
+        row-gap: 50px;
+        align-self: start;
+        background-color:  white;
+    }
+}
+@media screen and (max-width:700px) {
+    .page{
+        padding:20px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        column-gap: 70px;
+        row-gap: 50px;
+        align-self: start;
+        background-color:  white;
+    }
+}
+@media screen and (max-width:500px) {
+    .page{
+        padding:20px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        column-gap: 70px;
+        row-gap: 50px;
+        align-self: start;
+        background-color:  white;
+    }
+    .markdown{
+        line-height: 1.3;
+        font-size: 17px;
+        text-align: justify;
+        padding:30px;
+    }
+    .card h1{
+        font-size: 25px;
+        margin-top: 10px;
+        padding-left: 10px;
+        color: rgba(93,154,6,1);
+        font-weight: bolder;
+    }
+    .card-date{
+        font-size: 15px;
+        color: black;
+        padding:10px;
+    }
+
+    .card--image{
+        min-height: 400px;
+        max-height: 400px;
+    }
+    .card--img{
+        min-height: 400px;
+        max-height: 400px;
+    }
+}
