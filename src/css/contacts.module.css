@@ -6,6 +6,7 @@
     row-gap: 15px;
     margin-top: 50px;
     margin-bottom: 80px;
+    background-color: red;
 }
 .contact--div {
     display: grid;
@@ -25,12 +26,6 @@
     font-size: 20px;
     margin-top: 30px;
     line-height: 1.5;
-}
-.smallmap{
-    width: 300px;
-    min-height: 250px;
-    display: none;
-    box-shadow: 5px 5px 10px 6px rgba(85, 107, 47,0.3);
 }
 .bigmap{
     width: 600px;
@@ -74,13 +69,6 @@
     .map{
         border: solid black;
         max-width: 300px;
-        display: grid;
-        justify-self: center;
-
-    }
-    .smallmap{
-        width: 300px;
-        min-height: 250px;
         display: grid;
         justify-self: center;
     }

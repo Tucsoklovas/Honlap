@@ -2,7 +2,6 @@ import React from "react"
 import {Link} from 'gatsby'
 import Layout from "../components/Layout"
 import BigMap from "../components/BigMap"
-import SmallMap from "../components/SmallMap"
 import  * as styles from "../css/contacts.module.css"
 import  * as style from "../css/prices.module.css"
 const Contacts = () => {
@@ -26,9 +25,6 @@ const Contacts = () => {
                     <div className={style.button}>
                         <Link to={'/Form'}> Jelentkezés lovaglásra</Link>
                     </div>
-                </div>
-                <div className={styles.smallmap}>
-                    <SmallMap/>
                 </div>
                 <div className={styles.bigmap}>
                     <BigMap/>
