@@ -160,7 +160,7 @@
 @media screen and (max-width: 430px) {
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.6);
-        font-family: "Bradley Hand ITC";
+        font-family: "Calibri Light";
         font-weight: bold;
     }
 
