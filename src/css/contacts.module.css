@@ -69,8 +69,8 @@
         grid-template-columns: 1fr  ;
         column-gap: 10px ;
         row-gap: 15px;
-        margin-top: 20px;
-        margin-bottom: 30px;
+        margin-top: 30px;
+        margin-bottom: 50px;
     }
     .map{
         border: solid black;

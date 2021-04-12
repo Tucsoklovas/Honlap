@@ -12,7 +12,7 @@ const Pictures = ({data}) => {
         <Layout>
             <div className={styles.photosFullpage}>
                 <div className={styles.photosPage}>
-                    <ImageGallery showPlayButton={false} items={images.map((item) => (
+                    <ImageGallery showPlayButton={false} className={styles.galery} style={{zIndex: '-1'}} items={images.map((item) => (
                             {
                                 original: item.fenykep.fluid.src,
                                 thumbnail: item.fenykep.fluid.src,

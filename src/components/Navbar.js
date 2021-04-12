@@ -30,7 +30,7 @@ const Navbar = () => {
                         <AiOutlineMenu className={styles.menu}/>
                     </button>
                     <div className={!isOpen ? `${styles.dropdownContent}` : `${styles.dropdownContent} ${styles.openMenu}`}>
-                        <button onClick={() => toggleSidebar()}>
+                        <button onClick={() => toggleSidebar()} className={styles.closeButton}>
                             <FaTimes/>
                         </button>
                         <Link to='/' onClick={() => toLink()}>Főoldal</Link>
