@@ -52,4 +52,46 @@
         align-self: center;
 
     }
+    .footer-h2{
+        font-weight: bold;
+        font-size: 18px;
+        padding-bottom:10px
+    }
+    .footer--p{
+        line-height: 1.5;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .footer--copyright{
+        text-align: center;
+        padding-bottom:5px;
+        align-self: end;
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .footer--img{
+        width: 0px;
+        align-self: center;
+
+    }
+    .footer-h2{
+        font-weight: bold;
+        font-size: 12px;
+        padding-bottom:5px
+    }
+    .footer--p{
+        line-height: 1.5;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        font-size: 11px;
+    }
+    .footer--copyright{
+        text-align: center;
+        padding-bottom:5px;
+        align-self: end;
+        font-size: 11px;
+    }
 }

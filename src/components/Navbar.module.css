@@ -95,14 +95,11 @@
     grid-template-columns:0.1fr 0.1fr 1fr  ;
     align-self: center;
     width: 5%;
-
-
 }
 .button-EH button{
     background-color:  rgba(93,154,6,0.01);
     font-size: large;
     border: none;
-
 
 }
 .button-EH button:hover{
@@ -131,6 +128,10 @@
         font-size: 30px;
 
     }
+    .button-EH button{
+
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:440px) {
     .navbar--img{
@@ -153,4 +154,16 @@
         font-size: 30px;
 
     }
+    .button-EH{
+        display: grid;
+        grid-template-columns:0.1fr 0.1fr 1fr  ;
+        align-self: center;
+        width: 2%;
+        font-size: 13px;
+    }
+    .button-EH button{
+
+        font-size: 12px;
+    }
+
 }
