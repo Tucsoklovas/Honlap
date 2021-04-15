@@ -9,6 +9,11 @@ exports.createPages = async ({ graphql, actions }) => {
         nodes {
           slug
         }
+      },
+      story: allContentfulTortenetek {
+        nodes {
+          slug
+        }
       }
     }
   `)
@@ -18,6 +23,15 @@ exports.createPages = async ({ graphql, actions }) => {
             component: path.resolve(`src/templates/competitors-template.js`),
             context: {
                 slug: person.slug,
+            },
+        })
+    })
+    result.data.story.nodes.forEach(story => {
+        createPage({
+            path: `/Pictures/${story.slug}`,
+            component: path.resolve(`src/templates/pictures-template.js`),
+            context: {
+                slug: story.slug,
             },
         })
     })

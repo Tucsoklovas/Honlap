@@ -1,11 +1,27 @@
 import React from "react"
 import Layout from "../components/Layout"
 import hatter from "../assets/hatter.png"
+import felnott from "../assets/Nyilatkozat Felnőtt új.pdf"
+import gyerek from "../assets/Nyilatkozat Gyermek új.pdf"
 import Checkbox from '@material-ui/core/Checkbox';
 import * as styles from "../css/form.module.css"
+import Button from '@material-ui/core/Button';
+import Dialog from '@material-ui/core/Dialog';
+import DialogActions from '@material-ui/core/DialogActions';
+import DialogContent from '@material-ui/core/DialogContent';
+import DialogContentText from '@material-ui/core/DialogContentText';
+import DialogTitle from '@material-ui/core/DialogTitle';
 
 const Form = () => {
+    const [open, setOpen] = React.useState(false);
 
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
     const [checked, setChecked] = React.useState(false);
     const handleChange = (event) => {
         setChecked(event.target.checked);
@@ -52,21 +68,46 @@ const Form = () => {
                                 <p>Ha még nem töltötted ki nálunk az alábbi nyilatkozatokat kérlek töltsd le!
                                     És töltsd ki majd hozd magaddal az első lovaglásra vagy küld el emailbe az alábbi emailcímre: info@tucsoklovasudvar.hu
                                 </p>
-                                <a href={hatter} download >
-                                    Szülői nyilatkozat letöltése
+                                <a href={felnott} download >
+                                    Felnőtt nyilatkozat
                                 </a>
                                 <br/>
-                                <a href={hatter} download >
-                                    Másik nyilatkozat letöltése
+                                <a href={gyerek} download >
+                                    Gyerek  nyilatkozat
                                 </a>
                             </div>
                             <div>
-                                Az adatvédelmi nyilatkozatot elfogadom
+                                <Button
+                                    variant="outlined"
+                                    onClick={handleClickOpen}
+                                >
+                                    Az adatvédelmi nyilatkozatot elfogadom
+                                </Button>
+                                <Dialog
+                                    open={open}
+                                    onClose={handleClose}
+                                    aria-labelledby="alert-dialog-title"
+                                    aria-describedby="alert-dialog-description"
+                                >
+                                    <DialogTitle id="alert-dialog-title">{"Adatvédelmi nyilatkozat"}</DialogTitle>
+                                    <DialogContent>
+                                        <DialogContentText id="alert-dialog-description">
+                                            Ide kell a nyilatkozat szövege
+                                        </DialogContentText>
+                                    </DialogContent>
+                                    <DialogActions>
+                                        <Button onClick={handleClose} required={true}>
+                                            ok
+                                        </Button>
+
+                                    </DialogActions>
+                                </Dialog>
                                 <Checkbox
                                     checked={checked}
                                     onChange={handleChange}
                                     required={true}
                                 />
+
                             </div>
                             <button type="submit" className={`${styles.submitBtn} ${styles.btn}`}>
                                 Küldés

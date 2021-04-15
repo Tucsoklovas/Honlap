@@ -1,10 +1,32 @@
 .title{
     text-align: center;
-    padding-top:  30px;
+    padding:  20px;
     font-size: 50px;
+    color: rgba(93,154,6,1);
+}
+.p{
+    text-align: center;
 }
 
+.story{
+    padding:20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
 
+}
+.storybox{
+    background-color: rgba(93,154,6,0.6);
+    text-align: center;
+    padding: 20px;
+}
+.link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:black;
+}
 .photos--fullpage{
     padding:50px;
 }

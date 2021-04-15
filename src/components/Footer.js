@@ -1,6 +1,9 @@
 import React from 'react'
 import logo from "../assets/logo.png"
 import * as style from "./Footer.module.css"
+import felnott from "../assets/Nyilatkozat Felnőtt új.pdf";
+import gyerek from "../assets/Nyilatkozat Gyermek új.pdf";
+import adatvedelem from "../assets/Adatkezelési és hozzájárulási nyilatkozat.pdf"
 
 const Footer = () => {
     return(
@@ -20,13 +23,20 @@ const Footer = () => {
                     <img src={logo} className={style.footerImg} alt={"logo"}/>
                     <div className={style.footerLink}>
                         <h2 className={style.footerH2}>
-                            Hahó
+                            Letölthető nyilatkozatok
                         </h2>
-                        <p >Adatvédelmi nyilatkozat</p>
-                        <p>
-                            valamiiiiiiiiii!!! <br/>
-                            vali 2
-                        </p>
+                        <a href={adatvedelem} download >
+                            Adatkezelési és hozzájárulási nyilatkozat
+                        </a>
+                        <br/>
+
+                        <a href={felnott} download >
+                            Felnőtt nyilatkozat
+                        </a>
+                        <br/>
+                        <a href={gyerek} download >
+                            Gyerek  nyilatkozat
+                        </a>
                     </div>
                 </div>
                 <p className={style.footerCopyright}>Copyright 2021 © Tücsök Lovasudvar</p>

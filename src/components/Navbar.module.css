@@ -21,7 +21,7 @@
 }
 .close--button{
     margin: 20px;
-    font-size: 30px;
+    font-size: 20px;
     align-self: end;
 
 }
@@ -85,7 +85,7 @@
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .open-menu {
@@ -149,7 +149,7 @@
     }
     .close--button{
         margin: 20px;
-        font-size: 20px;
+        font-size: 15px;
         align-self: end;
 
     }

@@ -4,7 +4,7 @@
 }
 .index--fullpage{
     background: radial-gradient( rgba(255,255,255,1) 10%, rgba(93,154,6,0.8) 80%);
-    height: 100vh;
+    height: 110vh;
 
 }
 @media screen and (min-width: 1100px) {
@@ -174,7 +174,6 @@
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.6);
         font-weight: bold;
-        font-family: "Brush Script MT";
     }
 
 
