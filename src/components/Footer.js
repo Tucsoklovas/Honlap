@@ -16,8 +16,8 @@ const Footer = () => {
                         </h2>
                         <p className={style.footerP}>
                             <span>Telefonszám:</span> +36302428536 <br/>
-                            <span>Cím: </span>Bodmér <br/>
-                            <span>E-mail: </span> info@tucsoklovasudvar.uh
+                            <span>Cím: </span>Bodmér, Vasvári Pál utca 3 <br/>
+                            <span>E-mail: </span> info@tucsoklovasudvar.hu
                         </p>
                     </div>
                     <img src={logo} className={style.footerImg} alt={"logo"}/>

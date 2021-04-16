@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import hatter from "../assets/hatter.png"
 import felnott from "../assets/Nyilatkozat Felnőtt új.pdf"
 import gyerek from "../assets/Nyilatkozat Gyermek új.pdf"
+import adatvedelem from "../assets/Adatkezelési és hozzájárulási nyilatkozat.pdf"
 import Checkbox from '@material-ui/core/Checkbox';
 import * as styles from "../css/form.module.css"
 import Button from '@material-ui/core/Button';
@@ -31,8 +32,8 @@ const Form = () => {
             <section className={styles.contactPage}>
                 <article className={styles.contactForm}>
                     <h1>Jelentkezés Lovaglásra</h1>
-                    <p> Ha nem jártál még nálunk de szívesen jönnél akkor töltsd ki ezta formot és hamarosan felvesszük veled a kapcsolatot, és megbeszélünk egy időpontot.
-                        Lovaglás kizárólag előre megbeszélt időpontban lehetséges csak.
+                    <p> Ha szívesen jönnél hozzánk lovagolni kérlek töltsd ki ezt a formot, és mi felvesszük veled  a kapcsolatot.
+                        Lovaglás csak előre egyeztetett időpontban lehetséges.
                     </p>
                     <form action="https://formspree.io/f/mleoqqgo" method="POST">
                         <div className={styles.formGroup}>
@@ -65,8 +66,8 @@ const Form = () => {
                                 className={styles.formControl}
                             ></textarea>
                             <div className={styles.links}>
-                                <p>Ha még nem töltötted ki nálunk az alábbi nyilatkozatokat kérlek töltsd le!
-                                    És töltsd ki majd hozd magaddal az első lovaglásra vagy küld el emailbe az alábbi emailcímre: info@tucsoklovasudvar.hu
+                                <p>Kérlek töltsd ki az alábbi nyilatkozatokat és hozdd magaddal az első lovaglásra vagy küldd el e-mailben az alábbi emailcímre: EZTMÉG KELL
+                                    Nyilatkozat hiányában a lovaglás nem lehetséges!
                                 </p>
                                 <a href={felnott} download >
                                     Felnőtt nyilatkozat
@@ -74,6 +75,10 @@ const Form = () => {
                                 <br/>
                                 <a href={gyerek} download >
                                     Gyerek  nyilatkozat
+                                </a>
+                                <br/>
+                                <a href={adatvedelem} download >
+                                    Adatvédelmi nyilatkozat
                                 </a>
                             </div>
                             <div>
