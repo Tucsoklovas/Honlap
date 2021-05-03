@@ -69,6 +69,11 @@
         line-height: 1.5;
         margin-left: 10px;
         margin-bottom: 20px;
+    }
+    .footer--link{
+        line-height: 1.2;
+    }
+    .a{
         font-size: 15px;
     }
     .footer--copyright{
@@ -96,6 +101,16 @@
         margin-bottom: 20px;
         font-size: 11px;
     }
+    .footer--link{
+        justify-self: end;
+        line-height: 1;
+    }
+    .a{
+        text-decoration: none;
+        color: black;
+        font-size: 11px;
+    }
+
     .footer--copyright{
         text-align: center;
         padding-bottom:5px;

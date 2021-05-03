@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 :root{
-    --font-size: 80px;
+    --font-size: 95px;
 }
 .index--fullpage{
     background: radial-gradient( rgba(255,255,255,1) 10%, rgba(93,154,6,0.8) 80%);
@@ -44,11 +45,14 @@
         grid-row: 1;
         text-align: center;
         padding-top: 30px;
+        align-self: center;
+
     }
     .item-5 h1 {
         font-size:  var(--font-size);
-        font-family: "Bradley Hand ITC";
-        font-weight: bold;
+        font-family: 'Indie Flower', cursive;
+       /* font-weight: bold;*/
+        display: grid;
     }
 
     .item-6{
@@ -123,9 +127,8 @@
 
     }
     .item-5 h1 {
-        font-size:  var(--font-size);
-        font-family: "Bradley Hand ITC";
-        font-weight: bold;
+        font-size:  calc(var(--font-size)*0.7);
+        /*font-weight: bold;*/
     }
 
     .item-6{
@@ -161,7 +164,6 @@
 @media screen and (max-width: 610px) {
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.8);
-        font-weight: bold;
     }
     .index--img{
         height: 70%;
@@ -173,7 +175,6 @@
 @media screen and (max-width: 430px) {
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.6);
-        font-weight: bold;
     }
 
 
