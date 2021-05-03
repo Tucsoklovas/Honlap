@@ -4,13 +4,19 @@ require('dotenv').config({
 })
 module.exports = {
   siteMetadata: {
-    title: "starter",
+        title: "TucsokLovasudvar",
+        description:`Tücsök lovasudvar honlapja`,
+      titleTemplate:`%s | Tücsök Lovasudvar`,
+      url:`https://tucsok.netlify.app`,
+      twitterUsername:`@TucsokLovasudvar`,
+      image:`/MainImg.png`
   },
 
   plugins: [
       `gatsby-plugin-styled-components`,
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
+      `gatsby-plugin-react-helmet`,
       {
           resolve: `gatsby-source-filesystem`,
           options: {

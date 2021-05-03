@@ -30,9 +30,17 @@
     padding:20px;
 }
 .footer--link{
-
+    /*text-align: center;*/
     justify-self: end;
     line-height: 1.5;
+}
+.a{
+    text-decoration: none;
+    color: black;
+
+}
+.a:hover{
+    color: darkgreen;
 }
 .footer--img{
     width: 100px;

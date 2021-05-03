@@ -10,6 +10,9 @@ const Story = ({data: {story: {cim, szoveg: {szoveg} }}} ) => {
             <div className={styles.page}>
                 <h1 className={styles.h1}>{cim}</h1>
                 <ReactMarkdown source={szoveg} className={styles.p}/>
+                <div className={styles.backButtonDiv}>
+                    <Link to="/Pictures" className={styles.backButton}>Vissza a képekhez</Link>
+                </div>
             </div>
         </Layout>
     )

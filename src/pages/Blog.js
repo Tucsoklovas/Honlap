@@ -12,6 +12,8 @@ const Blog = ({data}) => {
     } = data
     return (
         <Layout>
+            <h1 className={styles.title}>Hírek</h1>
+
             <div className={styles.page}>
                 {blogs.map(blog => {
                     return (

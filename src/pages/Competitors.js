@@ -32,7 +32,7 @@ const Competitors = ({data}) => {
 }
 export const query = graphql`
  {
-    allContentfulVersenyzok {
+    allContentfulVersenyzok (sort: {fields: nev, order: ASC}){
       nodes {
         nev
         id

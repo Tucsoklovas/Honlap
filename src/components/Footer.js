@@ -4,6 +4,7 @@ import * as style from "./Footer.module.css"
 import felnott from "../assets/Nyilatkozat Felnőtt új.pdf";
 import gyerek from "../assets/Nyilatkozat Gyermek új.pdf";
 import adatvedelem from "../assets/Adatkezelési és hozzájárulási nyilatkozat.pdf"
+import * as styles from "../css/contacts.module.css";
 
 const Footer = () => {
     return(
@@ -15,8 +16,13 @@ const Footer = () => {
                             Benedek Rita
                         </h2>
                         <p className={style.footerP}>
-                            <span>Telefonszám:</span> +36302428536 <br/>
-                            <span>Cím: </span>Bodmér, Vasvári Pál utca 3 <br/>
+                            <span>Telefonszám:</span> +36302428536
+                            <br/>
+                            <span>Cím: </span>
+                            <a className={styles.cim} href={"https://www.google.hu/maps/place/T%C3%BCcs%C3%B6k+Lovasudvar/@47.4496877,18.5421168,17z/data=!3m1!4b1!4m5!3m4!1s0x476a13e76e5c3bab:0x1e9d65c357e06622!8m2!3d47.4496841!4d18.5443055"}>
+                            Bodmér, Vasvári Pál utca 3
+                            </a>
+                            <br/>
                             <span>E-mail: </span> info@tucsoklovasudvar.hu
                         </p>
                     </div>
@@ -25,16 +31,16 @@ const Footer = () => {
                         <h2 className={style.footerH2}>
                             Letölthető nyilatkozatok
                         </h2>
-                        <a href={adatvedelem} download >
+                        <a href={adatvedelem} download className={style.a}>
                             Adatkezelési és hozzájárulási nyilatkozat
                         </a>
                         <br/>
 
-                        <a href={felnott} download >
+                        <a href={felnott} download className={style.a} >
                             Felnőtt nyilatkozat
                         </a>
                         <br/>
-                        <a href={gyerek} download >
+                        <a href={gyerek} download className={style.a} >
                             Gyerek  nyilatkozat
                         </a>
                     </div>

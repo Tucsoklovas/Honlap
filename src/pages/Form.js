@@ -85,6 +85,9 @@ const Form = () => {
                                 <Button
                                     variant="outlined"
                                     onClick={handleClickOpen}
+                                    style={{
+                                        border:"none"
+                                    }}
                                 >
                                     Az adatvédelmi nyilatkozatot elfogadom
                                 </Button>
@@ -97,7 +100,12 @@ const Form = () => {
                                     <DialogTitle id="alert-dialog-title">{"Adatvédelmi nyilatkozat"}</DialogTitle>
                                     <DialogContent>
                                         <DialogContentText id="alert-dialog-description">
-                                            Ide kell a nyilatkozat szövege
+                                            Hozzájárulok, hogy Benedek Rita (Tücsök Lovasudvar, ev.ig.sz.: 44681302), lovasoktatás, edzés,
+                                            lovastábor, lovakkal való foglalkozás során a szülői nyilatkozat kitöltésével a személyes adataimat
+                                            felvegye, tárolja.
+                                            Tudomásul veszem, hogy minden rólam felvett adat a GDPR előírásainak megfelelően kerül kezelésre
+                                            és tárolásra.
+
                                         </DialogContentText>
                                     </DialogContent>
                                     <DialogActions>
