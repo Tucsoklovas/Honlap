@@ -35,7 +35,7 @@ const Pictures = ({data}) => {
                 <div className={styles.story}>
                     {story.map(s => {
                         return(
-                            <div key={s.id}  >
+                            <div key={s.id} className={styles.storyboxDiv} >
                                 <Link to={`/Pictures/${s.slug}`} className={styles.link} >
                                     <h1 className={styles.storybox}>{s.cim}</h1>
                                 </Link>

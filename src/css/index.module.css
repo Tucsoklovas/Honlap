@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*font-family: 'Indie Flower', cursive;3*/
 
 :root{
     --font-size: 95px;
@@ -124,6 +125,8 @@
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.7);
         /*font-weight: bold;*/
+        font-family: 'Indie Flower', cursive;
+
     }
 
     .item-6{
@@ -159,6 +162,8 @@
 @media screen and (max-width: 610px) {
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.8);
+        font-family: 'Indie Flower', cursive;
+
     }
     .index--img{
         height: 70%;
@@ -170,6 +175,8 @@
 @media screen and (max-width: 430px) {
     .item-5 h1 {
         font-size:  calc(var(--font-size)*0.6);
+        font-family: 'Indie Flower', cursive;
+
     }
 
 
