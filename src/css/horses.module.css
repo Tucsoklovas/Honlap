@@ -15,12 +15,12 @@
 
 .horses--block h1{
 
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 10px;
     padding-left: 10px;
 }
 .horses--block h2{
-    font-size: 19px;
+    font-size: 29px;
     margin-top: 10px;
     padding-left: 10px;
     text-align: end;
@@ -36,14 +36,14 @@
 .horses--title{
     padding:20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color:rgba(93,154,6,1);
     font-weight: bold;
 }
 .horses--h3{
     padding:20px;
     text-align: center;
-    font-size: 22px;
+    font-size: 32px;
     color:rgba(93,154,6,1);
 }
 

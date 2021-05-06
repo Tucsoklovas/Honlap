@@ -3,8 +3,7 @@
 
     --clr-grey-10: hsl(210, 36%, 96%);
 
-    --ff-primary: "Roboto", sans-serif;
-    --ff-secondary: "Open Sans", sans-serif;
+
     --transition: all 0.3s linear;
     --spacing: 0.2rem;
     --radius: 0.25rem;
@@ -33,11 +32,11 @@
 .contact-form h1 {
     padding-top: 1.25rem;
     color: rgba(93,154,6,0.9);
-    font-size: 20px;
+    font-size: 30px;
 }
 .contact-form p {
     padding-top: 1.25rem;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 1.5;
     text-align: justify;
     padding:20px
@@ -57,7 +56,6 @@
     letter-spacing: var(--spacing);
 }
 .form-control::placeholder {
-    font-family: var(--ff-primary);
     color: var(--clr-grey-1);
     text-transform: uppercase;
     letter-spacing: var(--spacing);
@@ -93,6 +91,7 @@
 .links {
     line-height: 2;
     text-align: left;
+    font-size: 20px;
 }
 .links p{
     padding: 0;

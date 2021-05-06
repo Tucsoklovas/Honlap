@@ -17,16 +17,16 @@
 }
 .contact--div p{
     line-height: 2.2;
-    font-size: 22px;
+    font-size: 30px;
     margin-left: 30px;
 
 }
 .contact--div h1{
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 30px;
 }
 .contact--div h2{
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 30px;
     line-height: 1.5;
     text-align: center;
@@ -84,15 +84,15 @@
     }
     .contact--div p{
         line-height: 2.2;
-        font-size: 15px;
+        font-size: 25px;
         margin-left: 20px;
     }
     .contact--div h1{
-        font-size: 21px;
+        font-size: 31px;
         margin-bottom: 20px;
     }
     .contact--div h2{
-        font-size: 13px;
+        font-size: 23px;
         margin-top: 20px;
         margin-bottom: 15px;
         line-height: 1.5;

@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-import hatter from "../assets/hatter.png"
 import felnott from "../assets/Nyilatkozat Felnőtt új.pdf"
 import gyerek from "../assets/Nyilatkozat Gyermek új.pdf"
 import adatvedelem from "../assets/Adatkezelési és hozzájárulási nyilatkozat.pdf"

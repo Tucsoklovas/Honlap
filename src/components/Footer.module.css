@@ -10,13 +10,14 @@
 }
 .footer-h2{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     padding-bottom:10px
 }
 .footer--p{
     line-height: 1.5;
     margin-left: 10px;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .footer--p span{
     font-weight: bold;
@@ -25,6 +26,7 @@
     text-align: center;
     padding-bottom:5px;
     align-self: end;
+    font-size: 20px;
 }
 .footer--container{
     padding:20px;
@@ -37,6 +39,7 @@
 .a{
     text-decoration: none;
     color: black;
+    font-size: 25px;
 
 }
 .a:hover{
@@ -68,26 +71,30 @@
     }
     .footer-h2{
         font-weight: bold;
-        font-size: 18px;
+        font-size: 28px;
         padding-bottom:10px
     }
     .footer--p{
         line-height: 1.5;
         margin-left: 10px;
         margin-bottom: 20px;
+        font-size: 20px;
+
     }
     .footer--link{
         line-height: 1.4;
     }
     .a{
-        font-size: 15px;
+        font-size: 25px;
         line-height: 1.4;
+        font-size: 20px;
+
     }
     .footer--copyright{
         text-align: center;
         padding-bottom:5px;
         align-self: end;
-        font-size: 12px;
+        font-size: 22px;
     }
 
 }
@@ -105,30 +112,34 @@
     }
     .footer-h2{
         font-weight: bold;
-        font-size: 12px;
-        padding-bottom:5px
+        font-size: 22px;
+        padding-bottom:5px;
+
     }
     .footer--p{
         line-height: 1.5;
         margin-left: 10px;
         margin-bottom: 20px;
-        font-size: 11px;
+        font-size: 18px;
     }
     .footer--link{
         justify-self: end;
         line-height: 1;
+        text-align: right;
+
     }
     .a{
         text-decoration: none;
         color: black;
-        font-size: 11px;
+        font-size: 18px;
         line-height: 1.3;
+
     }
 
     .footer--copyright{
         text-align: center;
         padding-bottom:5px;
         align-self: end;
-        font-size: 11px;
+        font-size: 16px;
     }
 }
