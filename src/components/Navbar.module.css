@@ -136,7 +136,6 @@
     }
     .navbar--title{
         align-self: center;
-        font-family: "Bradley Hand ITC";
         font-weight: bold;
         margin-left: 20px;
         font-size: 2rem;
@@ -160,6 +159,14 @@
         align-self: end;
 
     }
+    .navbar--divs a{
+        font-size: 20px;
+        color: black;
+    }
+    .navbar--divs a:hover {
+        font-size: 22px;
+        color: rgba(93,154,6,1);
+    }
 }
 @media screen and (max-width:440px) {
     .navbar--img{
@@ -168,7 +175,6 @@
     }
     .navbar--title{
         align-self: center;
-        font-family: "Bradley Hand ITC";
         font-weight: bold;
         margin-left: 0px;
         font-size: 1.5rem;
@@ -192,6 +198,14 @@
     .button-EH button{
 
         font-size: 12px;
+    }
+    .navbar--divs a{
+        font-size: 18px;
+        color: black;
+    }
+    .navbar--divs a:hover {
+        font-size: 20px;
+        color: rgba(93,154,6,1);
     }
 
 }

@@ -13,7 +13,7 @@ const Competitors = ({data}) => {
         <Layout>
             <div className={styles.competitorCompetitors}>
                 <h1>Versenyzőink</h1>
-                <p> Ha kíváncsi vagy mit jelent versenyzőink számára a lovaglás kattints a képükre!</p>
+                <p > Ha kíváncsi vagy mit jelent versenyzőink számára a lovaglás kattints a képükre!</p>
             </div>
             <div className={styles.competitorPage}>
                 {people.map(person => {

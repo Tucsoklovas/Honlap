@@ -104,19 +104,19 @@
     }
     .markdown{
         line-height: 1.3;
-        font-size: 27px;
+        font-size: 22px;
         text-align: justify;
         padding:30px;
     }
     .card h1{
-        font-size: 35px;
+        font-size: 28px;
         margin-top: 10px;
         padding-left: 10px;
         color: rgba(93,154,6,1);
         font-weight: bolder;
     }
     .card-date{
-        font-size: 25px;
+        font-size: 24px;
         color: black;
         padding:10px;
     }

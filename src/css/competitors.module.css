@@ -98,6 +98,11 @@
     line-height: 2;
     text-align: justify;
 }
+.competitor--competitors p{
+
+    font-size: 30px;
+    ;
+}
 .single-competitorImage{
     display: grid;
     max-width: 700px;
@@ -191,15 +196,19 @@
     }
     .single--competitor--title h1{
         padding: 20px;
-        font-size: 50px;
+        font-size: 45px;
         color: darkgreen;
         font-weight: bold;
         margin-bottom: 20px;
     }
     .single-competitor p{
-        font-size: 28px;
+        font-size: 24px;
         line-height: 1.9;
         text-align: justify;
+    }
+    .competitor--competitors p{
+        font-size: 25px;
+
     }
 }
 @media screen and (max-width: 700px) {
@@ -220,12 +229,16 @@
 
     .competitor--competitors h1{
         text-align: center;
-        font-size: 50px;
+        font-size: 40px;
     }
     .single-competitor p{
-        font-size: 28px;
+        font-size: 20px;
         line-height: 1.7;
         text-align: justify;
+    }
+    .competitor--competitors p{
+        font-size: 20px;
+
     }
 }
 @media screen and (max-width: 600px) {
@@ -248,10 +261,11 @@
         padding:20px;
     }
     .single-competitor p{
-        font-size: 27px;
+        font-size: 18px;
         line-height: 1.7;
         text-align: justify;
     }
+
 
 }
 @media screen and (max-width: 500px) {
@@ -266,7 +280,7 @@
         padding:20px;
     }
     .single-competitor p{
-        font-size: 26px;
+        font-size: 18px;
         line-height: 1.7;
         text-align: justify;
     }
@@ -299,7 +313,7 @@
         padding:0;
     }
     .single-competitor p{
-        font-size: 25px;
+        font-size: 15px;
         line-height: 1.7;
         text-align: justify;
     }
