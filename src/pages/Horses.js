@@ -38,7 +38,7 @@ const Horses = ({data}) => {
 }
 export const query = graphql`
   {
-    horses:allContentfulAllataink (filter: {lo: {eq: true}}) {
+    horses:allContentfulAllataink (filter: {lo: {eq: true}} sort: {order: ASC, fields: sorszam}) {
       nodes {
         id
         nev
@@ -54,7 +54,7 @@ export const query = graphql`
         lo
       }
     },
-    dogCat:allContentfulAllataink (filter: {lo: {eq: false}}) {
+    dogCat:allContentfulAllataink (filter: {lo: {eq: false}} sort: {order: ASC, fields: sorszam}) {
       nodes {
         id
         nev
