@@ -167,6 +167,11 @@
         font-size: 22px;
         color: rgba(93,154,6,1);
     }
+    .dropdown-content {
+
+        line-height: 1.8;
+
+    }
 }
 @media screen and (max-width:440px) {
     .navbar--img{
@@ -206,6 +211,11 @@
     .navbar--divs a:hover {
         font-size: 20px;
         color: rgba(93,154,6,1);
+    }
+    .dropdown-content {
+
+        line-height: 1.5;
+
     }
 
 }
