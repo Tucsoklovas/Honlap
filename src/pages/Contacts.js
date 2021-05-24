@@ -26,9 +26,14 @@ const Contacts = () => {
                         <Link to={'/Form'}> Jelentkezés lovaglásra</Link>
                     </div>
                 </div>
-                <div className={styles.bigmap}>
-                    <BigMap/>
-                </div>
+
+                 <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d145100.36981746941!2d18.470634363809403!3d47.48675002292709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476a13e76e5c3bab%3A0x1e9d65c357e06622!2zVMO8Y3PDtmsgTG92YXN1ZHZhcg!5e0!3m2!1shu!2shu!4v1621865659370!5m2!1shu!2shu"
+                        allowFullScreen=""
+                        loading="lazy"
+                        className={styles.bigmap}>
+                 </iframe>
+
             </div>
         </Layout>
     )

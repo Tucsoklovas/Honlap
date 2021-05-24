@@ -23,7 +23,7 @@ const Footer = () => {
                             Bodmér, Vasvári Pál utca 3
                             </a>
                             <br/>
-                            <span>E-mail: </span> info@tucsoklovasudvar.hu
+                            <span>E-mail: </span>  tucsoklovasudvar@gmail.com
                         </p>
                     </div>
                     <img src={logo} className={style.footerImg} alt={"logo"}/>

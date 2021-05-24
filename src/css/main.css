@@ -11,6 +11,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');/*font-family: 'Aclonica', sans-serif;9*/
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');/*font-family: 'Fredericka the Great', cursive;10*/
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');/*font-family: 'Rye', cursive;11*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');/*font-family: 'Nunito', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');/*font-family: 'Alegreya', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Merienda&display=swap');/*font-family: 'Merienda', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');/*font-family: 'Annie Use Your Telescope', cursive;*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -39,6 +43,10 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
+body p{
+    opacity: 1;
+    font-weight: normal;
+}
 
 blockquote, q {
     quotes: none;
@@ -60,6 +68,10 @@ html {
 
 html,
 .root {
-    /*font-family: 'Libre Baskerville', serif;*/
+   /* font-family: 'Libre Baskerville', serif;*/
     font-family: 'Akaya Kanadaka', cursive;
+   /* font-family: 'Nunito', sans-serif;*/
+    /*font-family: 'Alegreya', serif;*/
+    /*font-family: 'Merienda', cursive;*/
+    /*font-family: 'Annie Use Your Telescope', cursive;*/
 }

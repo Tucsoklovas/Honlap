@@ -8,7 +8,7 @@ const Card = ({title, img, description}) => {
         <div className={`${styles.card}`}>
             <Image fluid={img} className={styles.cardImage}/>
             <h1>{title}</h1>
-            <p>{description}</p>
+
         </div>
     )
 }

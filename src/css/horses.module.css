@@ -1,7 +1,7 @@
 .horses--page{
-    padding:20px;
+    padding:60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     column-gap: 70px;
     row-gap: 50px;

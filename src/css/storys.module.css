@@ -2,14 +2,14 @@
 .h1{
     text-align: center;
     padding:  30px;
-    font-size: 60px;
+    font-size:40px;
     color: rgba(93,154,6,1);
 }
 .p{
     width: 50%;
     margin: auto;
-    line-height: 2  ;
-    font-size: 30px;
+    line-height: 1.5  ;
+    font-size: 20px;
     text-align: justify;
 }
 .back-button-div{
@@ -19,7 +19,7 @@
 .back-button{
     text-decoration: none;
      color: rgba(93,154,6,1);
-    font-size: 30px;
+    font-size: 25px;
 
 }
 @media screen and (max-width: 1500px) {
@@ -27,7 +27,7 @@
         width: 60%;
         margin: auto;
         line-height: 1.5  ;
-        font-size: 25px;
+        font-size: 18px;
         text-align: justify;
     }
 }
@@ -40,6 +40,7 @@
 @media screen and (max-width: 600px) {
     .p{
         font-size: 18px;
+
 
     }
 }

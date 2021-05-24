@@ -10,14 +10,14 @@
 }
 .footer-h2{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom:10px
 }
 .footer--p{
     line-height: 1.5;
     margin-left: 10px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 18px;
 }
 .footer--p span{
     font-weight: bold;
@@ -26,7 +26,7 @@
     text-align: center;
     padding-bottom:5px;
     align-self: end;
-    font-size: 20px;
+    font-size: 15px;
 }
 .footer--container{
     padding:20px;
@@ -39,7 +39,7 @@
 .a{
     text-decoration: none;
     color: black;
-    font-size: 25px;
+    font-size: 18px;
 
 }
 .a:hover{
@@ -71,30 +71,30 @@
     }
     .footer-h2{
         font-weight: bold;
-        font-size: 28px;
+        font-size: 18px;
         padding-bottom:10px
     }
     .footer--p{
         line-height: 1.5;
         margin-left: 10px;
         margin-bottom: 20px;
-        font-size: 20px;
+        font-size: 10px;
 
     }
     .footer--link{
         line-height: 1.4;
     }
     .a{
-        font-size: 25px;
+        font-size: 15px;
         line-height: 1.4;
-        font-size: 20px;
+        font-size: 10px;
 
     }
     .footer--copyright{
         text-align: center;
         padding-bottom:5px;
         align-self: end;
-        font-size: 22px;
+        font-size: 12px;
     }
 
 }

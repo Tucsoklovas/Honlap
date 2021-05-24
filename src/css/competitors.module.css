@@ -1,19 +1,43 @@
+/*állatink, versenyzőink oldal*/
 .competitor--page{
-    padding:70px;
+    padding:50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr;
-    column-gap: 70px;
+    column-gap: 50px;
     row-gap: 50px;
     align-self: start;
     background-color:  white;
 }
+
+.competitor--block{
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 10px 6px #ccc;
+}
+.competitor--block h1{
+    font-size: 30px;
+    padding:20px;
+    text-align: center;
+    color:black;
+}
+.competitor-image{
+    min-height: 400px;
+    max-height: 400px;
+}
+.competitors--link {
+    text-decoration: none;
+}
+.competitors--link:hover{
+    opacity: 0.7;
+}
+
+/* egy állat, versenyző*/
 .competitor--competitors{
     padding-top: 30px;
 }
 .competitor--competitors h1{
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     color: rgba(93,154,6,1);
 
 }
@@ -23,59 +47,8 @@
     padding:15px;
     color: black;
 }
-.competitor--block{
-    background-color: whitesmoke;
-    box-shadow: 5px 5px 10px 6px #ccc;
-}
-/*.competitor--block p{
-    line-height: 1.3;
-    font-size: 20px;
-    padding: 20px;
-    text-align: justify;
-}*/
-.competitor--block h1{
-    font-size: 40px;
-    padding:20px;
-    text-align: center;
-    color:black;
-}
-/*.competitor--block h2{
-    font-size: 19px;
-    margin-top: 10px;
-    padding-left: 10px;
-    text-align: end;
-    vertical-align: text-bottom;
-}*/
-.competitor-image{
-    min-height: 600px;
-    max-height: 600px;
-}
-.competitor--fullPage{
-    padding:50px;
-}
-.competitor--title{
-    padding:20px;
-    text-align: center;
-    font-size: 50px;
-    color:rgba(93,154,6,1);
-    font-weight: bold;
-}
-.competitor--h3{
-    padding:20px;
-    text-align: center;
-    font-size: 32px;
-    color:rgba(93,154,6,1);
-}
-.competitors--linkDiv{
-    font-size: 30px;
-    padding: 20px;
-}
-.competitors--link {
-    text-decoration: none;
-}
-.competitors--link:hover{
-    opacity: 0.7;
-}
+
+
 
 
 
@@ -84,6 +57,52 @@
 
 /* single competitor pages*/
 .single--competitor--page{
+    margin: auto;
+    width:80%;
+}
+.single-competitor{
+    display: grid;
+    grid-template-columns:  0.5fr 1fr ;
+    column-gap: 20px ;
+    padding: 30px;
+}
+.single-competitor p{
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+}
+.single-competitor-textblock{
+    display: grid;
+    align-self: center;
+}
+.single-competitorImage{
+    max-width: 700px;
+    min-height: 600px;
+    box-shadow: 10px 10px 5px grey;
+}
+.single--competitor--title h1{
+    padding: 40px;
+    font-size: 50px;
+    color: rgba(93,154,6,1);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.backButton--div{
+    text-align: center;
+    padding:30px;
+}
+.backButton{
+    font-size: 32px;
+    text-decoration: none;
+    color: rgba(93,154,6,1);
+    font-weight: bold;
+}
+
+.backButton:hover{
+    font-size: 40px;
+}
+
+/*.single--competitor--page{
     margin: auto;
     width:80%;
 }
@@ -129,8 +148,7 @@
 
 .backButton:hover{
     font-size: 40px;
-}
-
+}*/
 
 @media screen and (max-width: 1385px) {
     .competitor--page{

@@ -14,6 +14,11 @@ exports.createPages = async ({ graphql, actions }) => {
         nodes {
           slug
         }
+      },
+      animals: allContentfulAllataink {
+        nodes {
+            slug
+        }
       }
     }
   `)
@@ -32,6 +37,15 @@ exports.createPages = async ({ graphql, actions }) => {
             component: path.resolve(`src/templates/pictures-template.js`),
             context: {
                 slug: story.slug,
+            },
+        })
+    })
+    result.data.animals.nodes.forEach(animal => {
+        createPage({
+            path: `/Horses/${animal.slug}`,
+            component: path.resolve(`src/templates/horses-template.js`),
+            context: {
+                slug: animal.slug,
             },
         })
     })

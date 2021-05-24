@@ -34,7 +34,7 @@ const Form = () => {
                     <p> Ha szívesen jönnél hozzánk lovagolni kérlek töltsd ki ezt a formot, és mi felvesszük veled  a kapcsolatot.
                         Lovaglás csak előre egyeztetett időpontban lehetséges.
                     </p>
-                    <form action="https://formspree.io/f/mleoqqgo" method="POST">
+                    <form action="https://formspree.io/f/mdoygngk" method="POST">
                         <div className={styles.formGroup}>
                             <input
                                 type="name"
@@ -65,7 +65,7 @@ const Form = () => {
                                 className={styles.formControl}
                             ></textarea>
                             <div className={styles.links}>
-                                <p>Kérlek töltsd ki az alábbi nyilatkozatokat és hozdd magaddal az első lovaglásra vagy küldd el e-mailben az alábbi emailcímre: EZTMÉG KELL
+                                <p>Kérlek töltsd ki az alábbi nyilatkozatokat és hozdd magaddal az első lovaglásra vagy küldd el e-mailben az alábbi emailcímre: tucsoklovasudvar@gmail.com
                                     Nyilatkozat hiányában a lovaglás nem lehetséges!
                                 </p>
                                 <a href={felnott} download >
