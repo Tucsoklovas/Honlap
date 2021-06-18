@@ -46,8 +46,9 @@
     padding-top: 70px;
 }
 .video{
-    height: 500px;
-    width: 50%;
+    height: 400px;
+    width: 500px;
+    margin-left: 10%;
 }
 .photos--page{
     padding-right: 20%;
@@ -102,6 +103,7 @@
 @media screen and (max-width: 1200px) {
     .video{
         height: 450px;
+        margin-left: 0;
 
         width: 50%;
     }
@@ -144,6 +146,8 @@
     .video{
         height: 350px;
         width: 50%;
+        margin-left: 0;
+
     }
     .story{
         width: 90%;
