@@ -38,6 +38,7 @@
     color:black;
 
 }
+
 .photos--fullpage{
     padding:50px;
 }
@@ -52,7 +53,52 @@
     padding-right: 20%;
     padding-left: 20%;
 }
+.photos-mapsize{
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+    margin: auto;
+}
+.photos-mapsize:hover{
+    opacity: 0.8;
+}
+.photos-galery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    column-gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
 
+}
+.photos-title{
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(93,154,6,0.6);
+    width: 240px;
+    margin: auto;
+    padding: 5px;
+}
+/*-----------------------------------------------------Képgaléria a mappában--------------------------------------------------*/
+.galery-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    column-gap: 20px;
+    width: 80%;
+    margin: auto;
+    padding: 50px;
+}
+.galery-photosize{
+    width: 250px;
+    height: 250px;
+}
+.galery-title{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 30px;
+    color: rgba(93,154,6,1);
+}
+/*-----------------------------------------------------Méretváltoztatás-----------------------------------------------------*/
 @media screen and (max-width: 1200px) {
     .video{
         height: 450px;

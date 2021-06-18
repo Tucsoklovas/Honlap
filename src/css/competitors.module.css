@@ -306,7 +306,8 @@
         display: grid;
         margin-left:9%;
         margin-right:9%;
-        max-height:350px;
+        max-height:250px;
+        min-height: 250px;
         box-shadow: 10px 10px 5px grey;
         justify-self: center;
     }
@@ -340,12 +341,8 @@
         width:95%;
     }
     .single-competitorImage{
-        display: grid;
-        margin-left:5%;
-        margin-right:5%;
-        max-height:350px;
-        box-shadow: 10px 10px 5px grey;
-        justify-self: center;
+         max-height:200px;
+        min-height: 200px;
     }
 
 

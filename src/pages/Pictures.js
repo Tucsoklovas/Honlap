@@ -7,7 +7,7 @@ import Image from "gatsby-image";
 
 const Pictures = ({data}) => {
     const {
-        allContentfulGaleria: {nodes: images},
+        allContentfulFotoMappak: {nodes: images},
         allContentfulTortenetek: {nodes: story}
     } = data
     return (
@@ -28,16 +28,21 @@ const Pictures = ({data}) => {
 
                 </div>
                 <h1 className={styles.title}>Képek</h1>
+                <div className={styles.photosGalery}>
+                    {images.map(s=>{
+                        return(
+                            <div key={s.id} >
+                                <Link to={`/Galery/${s.slug}`} className={styles.link} >
+                                     <Image fluid={s.mappakep.fluid} className={styles.photosMapsize}/>
+                                     <h2 className={styles.photosTitle}>{s.mappanev}</h2>
+                                </Link>
 
-                <div className={styles.photosPage}>
-                    <ImageGallery showPlayButton={false} className={styles.galery} style={{zIndex: '-1'}} items={images.map((item) => (
-                            {
-                                original: item.fenykep.fluid.src,
-                                thumbnail: item.fenykep.fluid.src,
-                            }
+                            </div>
                         )
-                    )}/>
+                    })
+                    }
                 </div>
+
 
                 <h1 className={styles.title}>Videók</h1>
                 <iframe src="https://www.youtube.com/embed/4-Cqrm7mPvs" frameBorder="0"
@@ -50,14 +55,23 @@ const Pictures = ({data}) => {
 }
 export const query = graphql`
   {
-    allContentfulGaleria {
+     allContentfulFotoMappak {
       nodes {
         id
-        fenykep {
+              slug
+
+        kepek {
           fluid {
-              ...GatsbyContentfulFluid
+             ...GatsbyContentfulFluid
+          }
+          id
+        }
+        mappakep {
+          fluid {
+             ...GatsbyContentfulFluid
           }
         }
+        mappanev
       }
     }
     ,
@@ -74,3 +88,22 @@ export const query = graphql`
   }
 `
 export default Pictures
+/*<div className={styles.photosPage}>
+                    <ImageGallery showPlayButton={false} className={styles.galery} style={{zIndex: '-1'}} items={images.map((item) => (
+                            {
+                                original: item.fenykep.fluid.src,
+                                thumbnail: item.fenykep.fluid.src,
+                            }
+                        )
+                    )}/>
+                </div>*/
+/*   {
+                                    s.kepek.map(x=>{
+                                        return(
+                                            <div key={x.id}>
+                                                <Image fluid={x.fluid} className={styles.photosMapsize}/>
+
+                                            </div>
+                                        )
+                                    })
+                                }*/

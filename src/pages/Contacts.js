@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from 'gatsby'
 import Layout from "../components/Layout"
-import BigMap from "../components/BigMap"
 import  * as styles from "../css/contacts.module.css"
 import  * as style from "../css/prices.module.css"
 const Contacts = () => {
@@ -13,7 +12,7 @@ const Contacts = () => {
                     <p>
                         <span className={styles.span}>Edző:</span> Benedek Rita <br/>
                         <span className={styles.span}>Telefonszám:</span> +36 30 242 8536 <br/>
-                        <span className={styles.span}>Email: </span> info@tucsoklovasudvar.hu <br/>
+                        <span className={styles.span}>Email: </span> tucsoklovasudvar@gmail.com <br/>
                         <span className={styles.span}>Cím: </span>
                         <a className={styles.cim} href={"https://www.google.hu/maps/place/T%C3%BCcs%C3%B6k+Lovasudvar/@47.4496877,18.5421168,17z/data=!3m1!4b1!4m5!3m4!1s0x476a13e76e5c3bab:0x1e9d65c357e06622!8m2!3d47.4496841!4d18.5443055"}>
                             Bodmér, Vasvári Pál utca 3

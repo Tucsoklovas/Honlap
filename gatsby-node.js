@@ -15,6 +15,11 @@ exports.createPages = async ({ graphql, actions }) => {
           slug
         }
       },
+      galery: allContentfulFotoMappak {
+        nodes {
+          slug
+        }
+      },
       animals: allContentfulAllataink {
         nodes {
             slug
@@ -37,6 +42,15 @@ exports.createPages = async ({ graphql, actions }) => {
             component: path.resolve(`src/templates/pictures-template.js`),
             context: {
                 slug: story.slug,
+            },
+        })
+    })
+    result.data.galery.nodes.forEach(galery => {
+        createPage({
+            path: `/Galery/${galery.slug}`,
+            component: path.resolve(`src/templates/galery-template.js`),
+            context: {
+                slug: galery.slug,
             },
         })
     })
