@@ -46,7 +46,7 @@
     color: rgba(93,154,6,1);
     text-decoration: none;
 }
-@media screen and (max-width: 1175px) {
+@media screen and (max-width: 1200px) {
     .contact--container{
         padding:50px;
         display:grid;
@@ -56,7 +56,7 @@
         margin-top: 20px;
     }
     .bigmap{
-        max-width: 600px;
+        max-width: 650px;
         height: 350px;
 
     }
