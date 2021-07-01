@@ -30,7 +30,14 @@
 
 }
 .storybox-div{
-    background-color: rgba(93,154,6,0.6);
+    background-color: rgba(93,154,6,0.5);
+    border-radius: 20px;
+    padding: 5px;
+
+}
+.storybox-div:hover{
+    opacity: 60%;
+
 }
 .link{
     text-decoration: none;
@@ -67,6 +74,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
     column-gap: 20px;
+    row-gap: 20px;
+
     width: 80%;
     margin: auto;
     padding: 30px;
@@ -88,6 +97,8 @@
     width: 80%;
     margin: auto;
     padding: 50px;
+    row-gap: 20px;
+
 }
 .galery-photosize{
     width: 250px;
@@ -99,7 +110,23 @@
     padding-top: 30px;
     color: rgba(93,154,6,1);
 }
+.storybox{
+    line-height: 1.1;
+    margin: auto;
+    padding: 5px;
+}
 /*-----------------------------------------------------Méretváltoztatás-----------------------------------------------------*/
+@media screen and (max-width: 1400px) {
+    .photos-galery{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr  ;
+        column-gap: 20px;
+        width: 80%;
+        margin: auto;
+        padding: 30px;
+
+    }
+}
 @media screen and (max-width: 1200px) {
     .video{
         height: 450px;
@@ -132,6 +159,33 @@
         width: 80%;
         padding: 5px;
 
+
+    }
+    .photos-mapsize{
+        width: 200px;
+        height: 200px;
+        justify-self: center;
+        margin: auto;
+    }
+    .photos-title{
+        text-align: center;
+        font-size: 30px;
+        background-color: rgba(93,154,6,0.6);
+        width: 190px;
+        margin: auto;
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 800px) {
+
+    .photos-galery{
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        column-gap: 10px;
+        row-gap: 20px;
+        width: 90%;
+        margin: auto;
+        padding: 30px;
 
     }
 }
@@ -190,6 +244,18 @@
     .p{
         text-align: center;
         font-size: 17px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .photos-mapsize {
+        width: 150px;
+        height: 150px;
+
+    }
+    .photos-title{
+        font-size: 20px;
+        width: 140px;
     }
 }
 @media screen and (max-width: 470px) {
