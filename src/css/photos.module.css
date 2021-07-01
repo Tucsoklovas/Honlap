@@ -93,16 +93,18 @@
 .galery-page{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+
     column-gap: 20px;
+    row-gap: 20px;
     width: 80%;
     margin: auto;
     padding: 50px;
-    row-gap: 20px;
 
 }
 .galery-photosize{
     width: 250px;
     height: 250px;
+    margin: auto;
 }
 .galery-title{
     text-align: center;
@@ -116,6 +118,12 @@
     padding: 5px;
 }
 /*-----------------------------------------------------Méretváltoztatás-----------------------------------------------------*/
+@media screen and (max-width: 1600px) {
+    .galery-page{
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
+        width: 90%;
+    }
+}
 @media screen and (max-width: 1400px) {
     .photos-galery{
         display: grid;
@@ -124,6 +132,12 @@
         width: 80%;
         margin: auto;
         padding: 30px;
+
+    }
+}
+@media screen and (max-width: 1250px) {
+    .galery-page{
+        grid-template-columns: 1fr 1fr 1fr 1fr  ;
 
     }
 }
@@ -137,6 +151,11 @@
     .story{
         width: 70%;
 
+    }
+    .galery-photosize{
+        width: 200px;
+        height: 200px;
+        margin: auto;
     }
 }
 @media screen and (max-width: 1100px) {
@@ -174,6 +193,20 @@
         width: 190px;
         margin: auto;
         padding: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .galery-photosize{
+        width: 180px;
+        height: 180px;
+        margin: auto;
+    }
+    .galery-page{
+        grid-template-columns: 1fr 1fr 1fr  ;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 30px;
+
     }
 }
 @media screen and (max-width: 800px) {
@@ -245,6 +278,17 @@
         text-align: center;
         font-size: 17px;
     }
+    .galery-photosize{
+        width: 150px;
+        height: 150px;
+    }
+    .galery-page{
+        grid-template-columns: 1fr 1fr 1fr  ;
+        column-gap: 15px;
+        row-gap: 15px;
+        padding: 20px;
+
+    }
 }
 @media screen and (max-width: 500px) {
 
@@ -256,6 +300,11 @@
     .photos-title{
         font-size: 20px;
         width: 140px;
+    }
+
+    .galery-page{
+        grid-template-columns: 1fr 1fr ;
+
     }
 }
 @media screen and (max-width: 470px) {
