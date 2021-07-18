@@ -16,7 +16,7 @@ const Galery = ({data} ) => {
                         data.galery.kepek.map(x=>{
                             return(
                                 <div key={x.id}>
-                                    <Image fluid={x.fluid} className={styles.galeryPhotosize}/>
+                                    <Image fluid={x.fluid} className={`${styles.galeryPhotosize} ${"image-for-modal"}`}/>
                                 </div>
                             )
                         })

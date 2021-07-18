@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import ModalImage from "./ModalImage";
 
 const Layout = ({children}) => {
 
@@ -8,6 +9,7 @@ const Layout = ({children}) => {
         <>
             <Navbar/>
             {children}
+            <ModalImage/>
             <Footer/>
         </>
     )

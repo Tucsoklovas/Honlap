@@ -75,3 +75,7 @@ html,
     /*font-family: 'Merienda', cursive;*/
     /*font-family: 'Annie Use Your Telescope', cursive;*/
 }
+
+.image-for-modal {
+    cursor: pointer;
+}

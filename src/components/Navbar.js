@@ -16,14 +16,14 @@ const Navbar = () => {
     return (
         <nav className={styles.navbarNav}>
             <div className={styles.navbarContainer}>
-                <div>
+                <Link to={"/"}>
                     <img src={logo} alt="logo" className={styles.navbarImg}/>
-                </div>
+                </Link>
                 <div className={styles.navbarTitle}>
                     <h1>Tücsök Lovasudvar</h1>
                 </div>
                 <div className={styles.buttonEH}>
-                    <button>EN</button>| <button>HU</button>
+                    {/*<button>EN</button>| <button>HU</button>*/}
                 </div>
                 <div className={styles.navbarDivs}>
                     <button className={styles.menuButton} onClick={() => toggleSidebar()}>

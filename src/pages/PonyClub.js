@@ -34,7 +34,7 @@ const PonyKlub = ({data}) => {
                                           x.kepek.map(y=>{
                                               return(
                                                   <div>
-                                                      <Image fluid={y.fluid} className={styles.galeryPhotosize}/>
+                                                      <Image fluid={y.fluid} className={`${styles.galeryPhotosize} ${"image-for-modal"}`}/>
                                                   </div>
                                               )
                                           })
